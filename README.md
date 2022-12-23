@@ -1,2 +1,14 @@
 # HTML-Primer
-HTML Primer code was developed to empower educators and support staff working with any LMS tool 
+Learning to work with HTML in Learning Management Systems (LMS) helps improve student user experience by:
+* ensuring semantic content presentation,
+* compliment organizational brand adherence,
+* allow for modularity/reusability of curriculum materials,
+* improving accessibility and User Experience (UX) for all students.
+
+The HTML Primer code was developed as a resource for web designers/developers, educators, and support staff working with any LMS tool to:
+* easily understand core HTML code,
+* visualize predefined styling of content within the LMS,
+* comprehend how HTML elements available can be applied to eLearning curriculum,
+* encourage an HTML first philosophy.
+
+This HTML Primer is intended to be used as a testing mechanism of an institutions LMS design and capabilities, an educational resource for educators and support staff, and a collection of repeatable HTML code (yes, you will need to look at the HTML) that can be implemented into any webpage within a LMS or CMS. 
