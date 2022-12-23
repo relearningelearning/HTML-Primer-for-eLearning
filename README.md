@@ -14,7 +14,7 @@ The HTML Primer code was developed as a resource for web designers/developers, e
 This HTML Primer is intended to be used as a testing mechanism of an institutions LMS design and capabilities, an educational resource for educators and support staff, and a collection of repeatable HTML code (yes, you will need to look at the HTML) that can be implemented into any webpage within a LMS or CMS. 
 
 ## Instructions:
-Simply copy and paste the HTML-Primer.html code into your LMS HTML editor to see how the code is rendered in the LMS you are using.
+Simply copy and paste the [HTML-Primer.html](/HTML-Primer.html) code into your LMS HTML editor to see how the code is rendered in the LMS you are using.
 
 ## MIT License:
 Created by: 2022 Corey Stroeder - [Relearning.ca](https://www.relearning.ca)
