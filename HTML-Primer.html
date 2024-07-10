@@ -74,6 +74,7 @@
                         <li><a href="#Keyboard">Keyboard (<code>&lt;kbd&gt;</code>)</a></li>
                         <li><a href="#Time">Time (<code>&lt;time&gt;</code>)</a></li>
                         <li><a href="#Address">Address (<code>&lt;address&gt;</code>)</a></li>
+                        <li><a href="#Preformatted">Preformatted Text (<code>&lt;pre&gt;</code>)</a></li>
                     </ul>
                 </li>
             </ul>
@@ -82,8 +83,8 @@
         <li><a href="#References">References</a></li>
         <li><a href="#License">License</a></li>
     </ul>
-    <hr>
-    <br> 
+    <hr />
+    <br /> 
 </section>
 
 <section id="Introduction">
@@ -118,10 +119,11 @@
     <p>Coding HTML is very simple. Aside from a few exceptions, for every element you open, you will need to close it by including the forward slash (/). Here is an example of HTML code for an <code>&lt;h3&gt;</code> header element:</p>
 
     <table style="width:100%">
+        <caption>Example of <code>Code</code> in Use</caption>
         <thead>
             <tr>
-                <th style="width:50%;">HTML:</th>
-                <th>Result:</th>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
             </tr>            
         </thead>
         <tbody>
@@ -137,8 +139,8 @@
             </tr>
         </tbody>
     </table>
-    <hr>
-    <br>    
+    <hr />
+    <br />    
     
 </section>
 
@@ -165,8 +167,8 @@
     <p>Coding HTML requires the opening and closing of element code. Creating a heading in HTML is achieved by wrapping your text with the heading element code: <code>&lt;h6&gt;Heading&lt;/h6&gt;</code>.</p>
     <p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements" target="_blank">Learn more about <strong>headings</strong> at Mozilla.org</a>.</p>
     
-    <hr>
-    <br>
+    <hr />
+    <br />
 </section>
 
 
@@ -175,17 +177,18 @@
     <p>A majority of your content will be presented using the <code>&lt;p&gt;</code> and can work with other elements such as lists, links, tables, blockquotes and more. Presenting your content in paragraphs is important as it ensures semantic structure, effective styling (fonts, colours, size, line height, etc) and consistency. Review this example of paragraphs in use:</p>
 
     <table style="width:100%">
+        <caption>Paragraphs example</caption>
         <thead>
             <tr>
-                <th style="width:50%;">HTML:</th>
-                <th>Result:</th>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
             </tr>            
         </thead>
         <tbody>
             <tr>
                 <td>
                     <code>            
-                        &lt;p&gt;Geckos are a group of usually small, usually nocturnal lizards. They are found on every continent except Australia.&lt;/p&gt;<br>
+                        &lt;p&gt;Geckos are a group of usually small, usually nocturnal lizards. They are found on every continent except Australia.&lt;/p&gt;<br />
                         &lt;p&gt;Some species live in houses where they hunt insects attracted by artificial light.&lt;/p&gt;
                     </code>
                 </td>
@@ -198,8 +201,8 @@
     </table>
 
     <p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p" target="_blank">Learn more about <strong>paragraphs</strong> at Mozilla.org</a>.</p>    
-    <hr>
-    <br>
+    <hr />
+    <br />
 </section>
 
 <section id="Lists">
@@ -216,20 +219,21 @@
     <p>Unordered lists use bullets to illustrate content in logical point form. By default unordered lists start with the solid circle (&#8226;), however disk (○) and square (&#9632;) are also options that are used depending on the <strong>lists embedding depth</strong> or by adding in-line styles rules to the unordered list element <code>&lt;ul&gt;</code>. Review this example of unordered lists in use:</p>
     
     <table style="width:100%">
+        <caption>Unordered lists example</caption>
         <thead>
             <tr>
-                <th style="width:50%;">HTML:</th>
-                <th>Result:</th>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
             </tr>            
         </thead>
         <tbody>
             <tr>
                 <td>
                     <code>            
-                        &lt;ul&gt;<br>
-                        &emsp;&lt;li&gt;Quiz&lt;/li&gt;<br>
-                        &emsp;&lt;li&gt;Midterm&lt;/li&gt;<br>
-                        &emsp;&lt;li&gt;Final&lt;/li&gt;<br>
+                        &lt;ul&gt;<br />
+                        &emsp;&lt;li&gt;Quiz&lt;/li&gt;<br />
+                        &emsp;&lt;li&gt;Midterm&lt;/li&gt;<br />
+                        &emsp;&lt;li&gt;Final&lt;/li&gt;<br />
                         &lt;/ul&gt;
                     </code>
                 </td>
@@ -246,26 +250,27 @@
     
     <p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul" target="_blank">Learn more about <strong>unordered lists</strong> at Mozilla.org</a>.</p>
 
-    <br>
+    <br />
 
     <h4><a id="Lists-ordered">ORDERED LISTS</a></h4>
     <p>Ordered lists use numerical, alpha, or roman numerals to illustrate a sequential order of information. By default ordered lists will be numbered 1, 2, 3, 4, etc. Review this example of ordered lists in use:</p>
 
     <table style="width:100%">
+        <caption>Ordered lists example</caption>
         <thead>
             <tr>
-                <th style="width:50%;">HTML:</th>
-                <th>Result:</th>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
             </tr>            
         </thead>
         <tbody>
             <tr>
                 <td>
                     <code>            
-                        &lt;ol&gt;<br>
-                        &emsp;&lt;li&gt;Quiz&lt;/li&gt;<br>
-                        &emsp;&lt;li&gt;Midterm&lt;/li&gt;<br>
-                        &emsp;&lt;li&gt;Final&lt;/li&gt;<br>
+                        &lt;ol&gt;<br />
+                        &emsp;&lt;li&gt;Quiz&lt;/li&gt;<br />
+                        &emsp;&lt;li&gt;Midterm&lt;/li&gt;<br />
+                        &emsp;&lt;li&gt;Final&lt;/li&gt;<br />
                         &lt;/ol&gt;
                     </code>
                 </td>
@@ -283,6 +288,7 @@
     <p>Ordered lists characters can be customized to uppercase letters, lowercase letters, uppercase roman numerals or lowercase roman numerals. You can specify the type of list by adding necessary <code>type</code> attribute to the ordered list element <code>&lt;ol&gt;</code> element:</p>
 
     <table style="width: 100%;">
+        <caption>Mixed Lists examples</caption>
         <tbody>
             <tr>
                 <td>
@@ -329,41 +335,42 @@
 
 
     <p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol" target="_blank">Learn more about <strong>ordered lists</strong> at Mozilla.org</a>.</p>
-    <br>
+    <br />
 
     <h4><a id="Lists-embedding">EMBEDDING LISTS</a></h4>
     <p>Ordered and Unordered lists can be embedded within each other in various combinations to create deeper list context as needed by grouping information. This is achieved by adding a new list group (<code>&lt;ol&gt;</code> or <code>&lt;ul&gt;</code>) to a list item (<code>&lt;li&gt;</code>). Review this example of mixed embedded lists in use:</p>
     <table style="width:100%">
+        <caption>Embedding Lists examples</caption>
         <thead>
             <tr>
-                <th style="width:50%;">HTML:</th>
-                <th>Result:</th>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
             </tr>            
         </thead>
         <tbody>
             <tr>
                 <td>
                     <code>            
-                        &lt;ul&gt;<br>
-                        &emsp;&lt;li&gt;Quiz<br>
-                        &emsp;&emsp;&lt;ul&gt;<br>
-                        &emsp;&emsp;&emsp;&lt;li&gt;February 1, 2022&lt;/li&gt;<br>
-                        &emsp;&emsp;&emsp;&lt;li&gt;8:00 AM&lt;/li&gt;<br>
-                        &emsp;&emsp;&lt;/ul&gt;<br>
-                        &emsp;&lt;/li&gt;<br>
+                        &lt;ul&gt;<br />
+                        &emsp;&lt;li&gt;Quiz<br />
+                        &emsp;&emsp;&lt;ul&gt;<br />
+                        &emsp;&emsp;&emsp;&lt;li&gt;February 1, 2022&lt;/li&gt;<br />
+                        &emsp;&emsp;&emsp;&lt;li&gt;8:00 AM&lt;/li&gt;<br />
+                        &emsp;&emsp;&lt;/ul&gt;<br />
+                        &emsp;&lt;/li&gt;<br />
             
-                        &emsp;&lt;li&gt;Midterm<br>
-                        &emsp;&emsp;&lt;ul&gt;<br>
-                        &emsp;&emsp;&emsp;&lt;li&gt;March 1, 2022&lt;/li&gt;<br>
-                        &emsp;&emsp;&emsp;&lt;li&gt;10:00 AM&lt;/li&gt;<br>
-                        &emsp;&emsp;&lt;/ul&gt;<br>
-                        &emsp;&lt;/li&gt;<br>
-                        &emsp;&lt;li&gt;Final<br>
-                        &emsp;&emsp;&lt;ul&gt;<br>
-                        &emsp;&emsp;&emsp;&lt;li&gt;Arpil 1, 2022&lt;/li&gt;<br>
-                        &emsp;&emsp;&emsp;&lt;li&gt;1:30 PM&lt;/li&gt;<br>
-                        &emsp;&emsp;&lt;/ul&gt;<br>
-                        &emsp;&lt;/li&gt;<br>
+                        &emsp;&lt;li&gt;Midterm<br />
+                        &emsp;&emsp;&lt;ul&gt;<br />
+                        &emsp;&emsp;&emsp;&lt;li&gt;March 1, 2022&lt;/li&gt;<br />
+                        &emsp;&emsp;&emsp;&lt;li&gt;10:00 AM&lt;/li&gt;<br />
+                        &emsp;&emsp;&lt;/ul&gt;<br />
+                        &emsp;&lt;/li&gt;<br />
+                        &emsp;&lt;li&gt;Final<br />
+                        &emsp;&emsp;&lt;ul&gt;<br />
+                        &emsp;&emsp;&emsp;&lt;li&gt;Arpil 1, 2022&lt;/li&gt;<br />
+                        &emsp;&emsp;&emsp;&lt;li&gt;1:30 PM&lt;/li&gt;<br />
+                        &emsp;&emsp;&lt;/ul&gt;<br />
+                        &emsp;&lt;/li&gt;<br />
                         &lt;/ul&gt;
                     </code>
                 </td>
@@ -392,26 +399,27 @@
             </tr>
         </tbody>
     </table>
-    <br>
+    <br />
     
     <h4><a id="Lists-description">DESCRIPTION LISTS</a></h4>
     <p>Description lists are commonly used for glossaries or definitions. Here is an example describing two types of website management systems:</p>
     <table style="width:100%">
+        <caption>Description lists example</caption>
         <thead>
             <tr>
-                <th style="width:50%;">HTML:</th>
-                <th>Result:</th>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
             </tr>            
         </thead>
         <tbody>
             <tr>
                 <td>
                     <code>
-                        &lt;dl&gt;<br>
-                        &emsp;&lt;dt&gt;Content Management System (CMS)&lt;/dt&gt;<br>
-                        &emsp;&lt;dd&gt;Organizations use Content Management Systems to run website(s) frontend experience.&lt;/dd&gt;<br>
-                        &emsp;&lt;dt&gt;Learning Management System (LMS)&lt;/dt&gt;<br>
-                        &emsp;&lt;dd&gt;Education providers use Learning Management System's to provide eLearning website to students.&lt;/dd&gt;<br>
+                        &lt;dl&gt;<br />
+                        &emsp;&lt;dt&gt;Content Management System (CMS)&lt;/dt&gt;<br />
+                        &emsp;&lt;dd&gt;Organizations use Content Management Systems to run website(s) frontend experience.&lt;/dd&gt;<br />
+                        &emsp;&lt;dt&gt;Learning Management System (LMS)&lt;/dt&gt;<br />
+                        &emsp;&lt;dd&gt;Education providers use Learning Management System's to provide eLearning website to students.&lt;/dd&gt;<br />
                         &lt;/dl&gt;
                     </code>
                 </td>
@@ -429,26 +437,27 @@
     </table>
     
     <p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl" target="_blank">Learn more about <strong>description lists</strong> at Mozilla.org</a>.</p>
-    <hr>
-    <br>
+    <hr />
+    <br />
 </section>
 
 <section id="Hyperlinking">
     <h3><a id="Hyperlinking">Hyperlinking</a></h3>
     <p>Whether you are linking to a website, within a webpage, a document or an email, all hyperlinks use the anchor <code>&lt;a&gt;</code> element.</p>
     <table style="width:100%">
+        <caption>Hyperlinking example</caption>
         <thead>
             <tr>
-                <th style="width:50%;">HTML:</th>
-                <th>Result:</th>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
             </tr>            
         </thead>
         <tbody>
             <tr>
                 <td>
                     <code>
-                        &lt;a href="https://developer.mozilla.org/en-US/"&gt;<br>
-                        &emsp;https://developer.mozilla.org/en-US/<br>
+                        &lt;a href="https://developer.mozilla.org/en-US/"&gt;<br />
+                        &emsp;https://developer.mozilla.org/en-US/<br />
                         &lt;/a&gt;
                     </code>
                 </td>
@@ -458,13 +467,14 @@
             </tr>
         </tbody>
     </table>
-    <br>
+    <br />
     <p>When linking to a webpage or a document it is important to use contextually relevant language for the link. Try to avoid generic <q>Click here</q> link language by including <em>text that provides context to the user about the link</em> and if needed integrate the <em>call to action</em>. By default, browsers will open the hyperlink in the same page:</p>
     <table style="width:100%">
+        <caption>Contextually relevant language for the link example</caption>
         <thead>
             <tr>
-                <th style="width:50%;">Before:</th>
-                <th>After:</th>
+                <th style="width:50%;" scope="col">Before:</th>
+                <th scope="col">After:</th>
             </tr>            
         </thead>
         <tbody>
@@ -478,23 +488,24 @@
             </tr>
         </tbody>
     </table>
-    <br>
+    <br />
 
     <h4><a id="Links-vs">EXTERNAL vs. INTERNAL</a></h4>
     <p>When using hyperlinks, one of the most common linking options is to consider whether or not to open the link in a new window. Common rule of thumb; when hyperlinking to a webpage <em>external to your website or linking to a document</em>, set up the link to open in a new window or tab. By including <code>target="_blank"</code> to the anchor, the link will open in a new window/tab.</p>
     <table style="width:100%">
+        <caption>EXTERNAL vs. INTERNAL Hperlinks example</caption>
         <thead>
             <tr>
-                <th style="width:50%;">HTML:</th>
-                <th>Result:</th>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
             </tr>            
         </thead>
         <tbody>
             <tr>
                 <td>
                     <code>
-                        &lt;a href="https://developer.mozilla.org/en-US/" <strong>target="_blank"</strong>&gt;<br>
-                        &emsp;https://developer.mozilla.org/en-US/<br>
+                        &lt;a href="https://developer.mozilla.org/en-US/" <strong>target="_blank"</strong>&gt;<br />
+                        &emsp;https://developer.mozilla.org/en-US/<br />
                         &lt;/a&gt;
                     </code>
                 </td>
@@ -504,23 +515,24 @@
             </tr>
         </tbody>
     </table>
-    <br>
+    <br />
 
     <h4><a id="Links-email">EMAIL:</a></h4>
     <p>Hyperlinking for email addresses is achieved with a slight modification to the <code>href</code> to include <code>mailto:</code> scheme.</p>
     <table style="width:100%">
+        <caption>Email link example</caption>
         <thead>
             <tr>
-                <th style="width:50%;">HTML:</th>
-                <th>Result:</th>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
             </tr>            
         </thead>
         <tbody>
             <tr>
                 <td>
                     <code>
-                        &lt;a href="<strong>mailto:</strong>nowhere@mozilla.org"&gt;<br>
-                        &emsp;nowhere@mozilla.org<br>
+                        &lt;a href="<strong>mailto:</strong>nowhere@mozilla.org"&gt;<br />
+                        &emsp;nowhere@mozilla.org<br />
                         &lt;/a&gt;
                     </code>
                 </td>
@@ -530,23 +542,24 @@
             </tr>
         </tbody>
     </table>
-    <br>
+    <br />
 
     <h4><a id="Links-tel">TELEPHONE:</a></h4>
     <p>Browsers are capable of making phone calls when the anchor tag that includes <code>tel:</code> scheme to the <code>href</code>.</p>
     <table style="width:100%">
+        <caption>Telephone example</caption>
         <thead>
             <tr>
-                <th style="width: 50%;">HTML:</th>
-                <th>Result:</th>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
             </tr>            
         </thead>
         <tbody>
             <tr>
                 <td>
                     <code>
-                        &lt;a href="<strong>tel:</strong>+1-555-555-5555"&gt;<br>
-                        &emsp;(555) 555-5555<br>
+                        &lt;a href="<strong>tel:</strong>+1-555-555-5555"&gt;<br />
+                        &emsp;(555) 555-5555<br />
                         &lt;/a&gt;
                     </code>
                 </td>
@@ -556,55 +569,56 @@
             </tr>
         </tbody>
     </table>
-    <br>
+    <br />
     <p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a" target="_blank">Learn more about <strong>anchor</strong> at Mozilla.org</a>.</p>
 
-    <hr>
-    <br>
+    <hr />
+    <br />
 </section>
 
 <section id="Tables">
     <h3><a id="Tables">Tables</a></h3>
     <p>The use of tables in HTML are an excellent option to organize data, layout a schedule, or to highlight contextual relationships. The <code>&lt;table&gt;</code> can be sectioned into the head (<code>&lt;thead&gt;</code>), body (<code>&lt;tbody&gt;</code>) and if needed the footer (<code>&lt;tfoot&gt;</code>). Table rows are indicated by the <code>&lt;tr&gt;</code> element and table cells are <code>&lt;td&gt;</code> (unless in <code>&lt;thead&gt;</code>, then use <code>&lt;th&gt;</code>).</p>
-    <table style="width:100%">        
+    <table style="width:100%">     
+        <caption>Tables example</caption>   
         <thead>
             <tr>
-                <th style="width: 50%;">HTML:</th>
-                <th>Result:</th>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
             </tr>            
         </thead>
         <tbody>
             <tr>
                 <td>
                     <code>
-                        &lt;table&gt;<br>
+                        &lt;table&gt;<br />
                         &emsp;&lt;caption&gt;Number of Students in Classes&lt;/caption&gt;
-                        &emsp;&lt;thead&gt;<br>
-                        &emsp;&emsp;&lt;tr&gt;<br>
-                        &emsp;&emsp;&emsp;&lt;th scope="col"&gt;Class:&lt;/th&gt;<br>
-                        &emsp;&emsp;&emsp;&lt;th scope="col"&gt;Students:&lt;/th&gt;<br>
-                        &emsp;&emsp;&lt;/tr&gt;<br>
-                        &emsp;&lt;/thead&gt;<br>
-                        &emsp;&lt;tbody&gt;<br>
-                        &emsp;&emsp;&lt;tr&gt;<br>
-                        &emsp;&emsp;&emsp;&lt;td&gt;MATH 10&lt;/td&gt;<br>
-                        &emsp;&emsp;&emsp;&lt;td&gt;50&lt;/td&gt;<br>
-                        &emsp;&emsp;&lt;/tr&gt;<br>
-                        &emsp;&emsp;&lt;tr&gt;<br>
-                        &emsp;&emsp;&emsp;&lt;td&gt;SOCIAL 10&lt;/td&gt;<br>
-                        &emsp;&emsp;&emsp;&lt;td&gt;45&lt;/td&gt;<br>
-                        &emsp;&emsp;&lt;/tr&gt;<br>
-                        &emsp;&emsp;&lt;tr&gt;<br>
-                        &emsp;&emsp;&emsp;&lt;td&gt;SCIENCE 10&lt;/td&gt;<br>
-                        &emsp;&emsp;&emsp;&lt;td&gt;55&lt;/td&gt;<br>
-                        &emsp;&emsp;&lt;/tr&gt;<br>
-                        &emsp;&emsp;&lt;/tbody&gt;<br>
-                        &emsp;&lt;tfoot&gt;<br>
-                        &emsp;&emsp;&lt;tr&gt;<br>
-                        &emsp;&emsp;&emsp;&lt;th&gt;Total Students:&lt;/th&gt;<br>
-                        &emsp;&emsp;&emsp;&lt;td&gt;150*&lt;/td&gt;<br>
-                        &emsp;&emsp;&lt;/tr&gt;<br>
-                        &emsp;&lt;/tfoot&gt;<br>
+                        &emsp;&lt;thead&gt;<br />
+                        &emsp;&emsp;&lt;tr&gt;<br />
+                        &emsp;&emsp;&emsp;&lt;th scope="col"&gt;Class:&lt;/th&gt;<br />
+                        &emsp;&emsp;&emsp;&lt;th scope="col"&gt;Students:&lt;/th&gt;<br />
+                        &emsp;&emsp;&lt;/tr&gt;<br />
+                        &emsp;&lt;/thead&gt;<br />
+                        &emsp;&lt;tbody&gt;<br />
+                        &emsp;&emsp;&lt;tr&gt;<br />
+                        &emsp;&emsp;&emsp;&lt;td&gt;MATH 10&lt;/td&gt;<br />
+                        &emsp;&emsp;&emsp;&lt;td&gt;50&lt;/td&gt;<br />
+                        &emsp;&emsp;&lt;/tr&gt;<br />
+                        &emsp;&emsp;&lt;tr&gt;<br />
+                        &emsp;&emsp;&emsp;&lt;td&gt;SOCIAL 10&lt;/td&gt;<br />
+                        &emsp;&emsp;&emsp;&lt;td&gt;45&lt;/td&gt;<br />
+                        &emsp;&emsp;&lt;/tr&gt;<br />
+                        &emsp;&emsp;&lt;tr&gt;<br />
+                        &emsp;&emsp;&emsp;&lt;td&gt;SCIENCE 10&lt;/td&gt;<br />
+                        &emsp;&emsp;&emsp;&lt;td&gt;55&lt;/td&gt;<br />
+                        &emsp;&emsp;&lt;/tr&gt;<br />
+                        &emsp;&emsp;&lt;/tbody&gt;<br />
+                        &emsp;&lt;tfoot&gt;<br />
+                        &emsp;&emsp;&lt;tr&gt;<br />
+                        &emsp;&emsp;&emsp;&lt;th scope="row"&gt;Total Students:&lt;/th&gt;<br />
+                        &emsp;&emsp;&emsp;&lt;td&gt;150*&lt;/td&gt;<br />
+                        &emsp;&emsp;&lt;/tr&gt;<br />
+                        &emsp;&lt;/tfoot&gt;<br />
                         &lt;/table&gt;
                     </code>
                 </td>
@@ -633,7 +647,7 @@
                         </tbody>
                         <tfoot>
                             <tr>
-                                <th>Total Students:</th>
+                                <th scope="row">Total Students:</th>
                                 <td>150*</td>
                             </tr>
                         </tfoot>
@@ -644,35 +658,36 @@
     </table>
     <p><small><strong>*NOTE:</strong> Calculation is manual</small></p>
     <p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table" target="_blank">Learn more about <strong>tables</strong> at Mozilla.org</a>.</p>
-    <hr>
-    <br>
+    <hr />
+    <br />
 </section>
 
 <section id="Media">
     <h3><a id="Media">Media</a></h3>
     
-    <h4><a id="Figure">FIGURE & FIGCAPTION</a></h4>
+    <h4><a id="Figure">FIGURE &#38; FIGCAPTION</a></h4>
     <p>The <code>&lt;figure&gt;</code> element is used for self contained content; most commonly used with <code>&lt;img&gt;</code>, <code>&lt;audio&gt;</code>, <code>&lt;video&gt;</code>, and <code>&lt;blockquote&gt;</code> to name a few. Paired with the <code>&lt;figcaption&gt;</code> to provide a caption or legend describing the contents of the <code>&lt;figure&gt;</code>.</p>
     <table style="width:100%">
+        <caption>Figure &#38; Figcaption example</caption>
         <thead>
             <tr>
-                <th style="width: 50%;">HTML:</th>
-                <th>Result:</th>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
             </tr>            
         </thead>
         <tbody>
             <tr>
                 <td>
                     <code>
-                        &lt;figure&gt;<br>
-                        &emsp;&lt;blockquote&gt;<br>
-                        &emsp;&emsp;I have a dream that my four little children will one day live in a nation where they will not be judged by the color of their skin, but by the content of their character.<br>
-                        &emsp;&lt;/blockquote&gt;<br>
-                        &emsp;&lt;figcaption&gt;<br>
-                        &emsp;&emsp;&lt;cite&gt;<br>
-                        &emsp;&emsp;&emsp;Martin Luther King, Jr.<br>
-                        &emsp;&emsp;&lt;/cite&gt;<br>
-                        &emsp;&lt;/figcaption&gt;<br>
+                        &lt;figure&gt;<br />
+                        &emsp;&lt;blockquote&gt;<br />
+                        &emsp;&emsp;I have a dream that my four little children will one day live in a nation where they will not be judged by the color of their skin, but by the content of their character.<br />
+                        &emsp;&lt;/blockquote&gt;<br />
+                        &emsp;&lt;figcaption&gt;<br />
+                        &emsp;&emsp;&lt;cite&gt;<br />
+                        &emsp;&emsp;&emsp;Martin Luther King, Jr.<br />
+                        &emsp;&emsp;&lt;/cite&gt;<br />
+                        &emsp;&lt;/figcaption&gt;<br />
                         &lt;/figure&gt;
                     </code>
                 </td>
@@ -687,25 +702,26 @@
             </tr>
         </tbody>
     </table>
-    <br>
+    <br />
     
     <p>Learn more about the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure" target="_blank"><strong>figure</strong></a> and <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption" target="_blank"><strong>figcaption</strong></a> elements at Mozilla.org.</p>
 
     <h4><a id="Images">IMAGES</a></h4>
     <p>The most common and standard method for adding images into a webpage is by using the <code>&lt;img&gt;</code> element. To ensure accessibility of the image, be sure to include detailed information about in the image in the <code>alt</code> attribute (bolded).</p>
     <table style="width:100%">
+        <caption>Images example</caption>
         <thead>
             <tr>
-                <th style="width: 50%;">HTML:</th>
-                <th style="width: 50%;">Result:</th>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th style="width:50%;" scope="col">Result:</th>
             </tr>            
         </thead>
         <tbody>
             <tr>
                 <td>
                     <code>
-                        &lt;img<br>
-                        &emsp;src="https://picsum.photos/<wbr>id/237/600/400.jpg" <br>
+                        &lt;img<br />
+                        &emsp;src="https://picsum.photos/<wbr>id/237/600/400.jpg" <br />
                         &emsp;<strong>alt="A Black Labrador puppy looking up at the camera standing on a wooden deck. Image provided by Lorem Picsum."</strong>&gt;
                     </code>
                 </td>
@@ -715,26 +731,27 @@
             </tr>
         </tbody>
     </table>
-    <br>
+    <br />
     <p>Alternatively the image can be wrapped in a <code>&lt;figure&gt;</code> element and set up to include the <code>&lt;figcaption&gt;</code> as well to give additional context for the image.</p>
     <table style="width:100%">
+        <caption>Image with figcaption example</caption>
         <thead>
             <tr>
-                <th style="width: 50%;">HTML:</th>
-                <th style="width: 50%;">Result:</th>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th style="width:50%;" scope="col">Result:</th>
             </tr>            
         </thead>
         <tbody>
             <tr>
                 <td>
                     <code>
-                        &lt;figure&gt;<br>
-                        &emsp;&lt;img <br>
-                        &emsp;&emsp;src="https://picsum.photos/<wbr>id/237/600/400.jpg" <br>
-                        &emsp;&emsp;alt="A Black Labrador puppy looking up at the camera standing on a wooden deck. Image provided by Lorem Picsum."&gt;<br>
-                        &emsp;&emsp;&lt;figcaption&gt;<br>
-                        &emsp;&emsp;&emsp;A Black Labrador puppy looking up at the camera standing on a wooden deck. &lt;a href="https://picsum.photos/" target="_blank"&gt;Image provided by Lorem Picsum.&lt;/a&gt;<br>
-                        &emsp;&emsp;&lt;/figcaption&gt;<br>
+                        &lt;figure&gt;<br />
+                        &emsp;&lt;img <br />
+                        &emsp;&emsp;src="https://picsum.photos/<wbr>id/237/600/400.jpg" <br />
+                        &emsp;&emsp;alt="A Black Labrador puppy looking up at the camera standing on a wooden deck. Image provided by Lorem Picsum."&gt;<br />
+                        &emsp;&emsp;&lt;figcaption&gt;<br />
+                        &emsp;&emsp;&emsp;A Black Labrador puppy looking up at the camera standing on a wooden deck. &lt;a href="https://picsum.photos/" target="_blank"&gt;Image provided by Lorem Picsum.&lt;/a&gt;<br />
+                        &emsp;&emsp;&lt;/figcaption&gt;<br />
                         &lt;/figure&gt;
                     </code>
                 </td>
@@ -749,7 +766,7 @@
             </tr>
         </tbody>
     </table>
-    <br>
+    <br />
     <p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img" target="_blank">Learn more about the <strong>img</strong> element at Mozilla.org</a>.</p>
 
 
@@ -757,19 +774,20 @@
     <p>The <code>&lt;audio&gt;</code> element allows the playing of audio (MP3 files) within the webpage with a control interface when you have the audio URL available.</p>
     
     <table style="width:100%">
+        <caption>Audio example</caption>
         <thead>
             <tr>
-                <th style="width: 50%;">HTML:</th>
-                <th style="width: 50%;">Result:</th>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th style="width:50%;" scope="col">Result:</th>
             </tr>            
         </thead>
         <tbody>
             <tr>
                 <td>
                     <code>
-                        &lt;audio <abbr title="Controls needs to be included otherwise, the user will have no way to control the media">controls</abbr><br>
-                        &emsp;src="https://cdn.freesound.org/previews/642/642368_5674468-lq.mp3"&gt;<br>
-                        &emsp;&emsp;Your browser does not support the &lt;code&gt;audio&lt;/code&gt; element.<br>
+                        &lt;audio <abbr title="Controls needs to be included otherwise, the user will have no way to control the media">controls</abbr><br />
+                        &emsp;src="https://cdn.freesound.org/previews/642/642368_5674468-lq.mp3"&gt;<br />
+                        &emsp;&emsp;Your browser does not support the &lt;code&gt;audio&lt;/code&gt; element.<br />
                         &lt;/audio&gt;
                 </td>
                 <td>
@@ -780,27 +798,28 @@
             </tr>
         </tbody>
     </table>
-    <br>
+    <br />
     <p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio" target="_blank">Learn more about the <strong>audio</strong> element at Mozilla.org</a>.</p>
 
     <h4><a id="Video">VIDEO</a></h4>
 
     <p>The <code>&lt;video&gt;</code> element enables you to insert videos into your webpage with a control interface when you have the video URL available. For instances like YouTube, Vimeo and other hosted video content, look for the embed option to include in your webpage.</p>
     <table style="width:100%">
+        <caption>Video example</caption>
         <thead>
             <tr>
-                <th style="width: 50%;">HTML:</th>
-                <th>Result:</th>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
             </tr>            
         </thead>
         <tbody>
             <tr>
                 <td>
                     <code>
-                        &lt;video <abbr title="Controls needs to be included otherwise, the user will have no way to control the media">controls</abbr>&gt;<br>
-                        &emsp;&lt;source <br>
-                        &emsp;&emsp;src="https://test-videos.co.uk/<wbr>vids/bigbuckbunny/mp4/h264/360/<wbr>Big_Buck_Bunny_360_10s_30MB.mp4" <br>
-                        &emsp;&emsp;type="video/mp4"&gt;<br>
+                        &lt;video <abbr title="Controls needs to be included otherwise, the user will have no way to control the media">controls</abbr>&gt;<br />
+                        &emsp;&lt;source <br />
+                        &emsp;&emsp;src="https://test-videos.co.uk/<wbr>vids/bigbuckbunny/mp4/h264/360/<wbr>Big_Buck_Bunny_360_10s_30MB.mp4" <br />
+                        &emsp;&emsp;type="video/mp4"&gt;<br />
                         &lt;/video&gt;
                     </code>
                 </td>
@@ -812,11 +831,11 @@
             </tr>
         </tbody>
     </table>
-    <br>
+    <br />
     <p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video" target="_blank">Learn more about <strong>video</strong> at Mozilla.org</a>.</p>
 
-    <hr>
-    <br>
+    <hr />
+    <br />
 </section>
 
 
@@ -828,10 +847,11 @@
     <h4><a id="Strong">STRONG</a></h4>
     <p>Using <code>&lt;strong&gt;</code> is used to indicate strong importance, seriousness, or urgency and is rendered in bold type. It is also worth mentioning that <code>&lt;b&gt;</code>, which will render text in <b>bold type</b> as well but has <strong>no contextual value</strong> and <em>should be avoided</em>.</p>
     <table style="width:100%">
+        <caption>Strong example</caption>
         <thead>
             <tr>
-                <th style="width: 50%;">HTML:</th>
-                <th>Result:</th>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
             </tr>            
         </thead>
         <tbody>
@@ -847,7 +867,7 @@
             </tr>
         </tbody>
     </table>
-    <br>
+    <br />
     <p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong" target="_blank">Learn more about <strong>strong</strong> at Mozilla.org</a>.</p>
 
     <h4><a id="#Italics">ITALICS</a></h4>
@@ -856,17 +876,18 @@
     <h5><a id="#Idiomatic">Idiomatic</a></h5>
     <p>Idiomatic (<code>&lt;i&gt;</code>) text adds context to text when alterative mood, taxonomic designations, idiomatic terms from another language (<i>et cetera</i>), technical terms, transliterations, and thoughts are used. <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i" target="_blank">Learn more about <strong>idiomatic</strong> at Mozilla.org</a></p>
     <table style="width:100%">
+        <caption>Idiomatic example</caption>
         <thead>
             <tr>
-                <th style="width: 50%;">HTML:</th>
-                <th>Result:</th>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
             </tr>            
         </thead>
         <tbody>
             <tr>
                 <td>
                     <code>
-                        Students will be responsible for paper, pens, <br>&lt;i&gt;et cetera&lt;/i&gt; for their exam.
+                        Students will be responsible for paper, pens, <br />&lt;i&gt;et cetera&lt;/i&gt; for their exam.
                     </code>
                 </td>
                 <td>
@@ -875,15 +896,16 @@
             </tr>
         </tbody>
     </table>
-    <br>
+    <br />
 
     <h5><a id="Emphasis">Emphasis</a></h5>
     <p>Emphasis (<code>&lt;em&gt;</code>) text is contextually used to stress <em>emphasis</em> of the written words. <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em" target="_blank">Learn more about <strong>emphasis</strong> at Mozilla.org</a>.</p>
     <table style="width:100%">
+        <caption>Emphasis example</caption>
         <thead>
             <tr>
-                <th style="width: 50%;">HTML:</th>
-                <th>Result:</th>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
             </tr>            
         </thead>
         <tbody>
@@ -899,15 +921,16 @@
             </tr>
         </tbody>
     </table>
-    <br>
+    <br />
 
     <h5><a id="Definition">Definition</a></h5>
     <p>Definition (<code>&lt;dfn&gt;</code>) is contextually used to indicate a word being defined within the context of the phrase or sentence. <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dfn" target="_blank">Learn more about <strong>definition</strong> at Mozilla.org</a>.</p>
     <table style="width:100%">
+        <caption>Definition example</caption>
         <thead>
             <tr>
-                <th style="width: 50%;">HTML:</th>
-                <th>Result:</th>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
             </tr>            
         </thead>
         <tbody>
@@ -923,15 +946,16 @@
             </tr>
         </tbody>
     </table>
-    <br>
+    <br />
     
     <h5><a id="Cite">Cite</a></h5>
     <p>Cite (<code>&lt;cite&gt;</code>) is contextually used for the <em>title</em> of a creative work when cited (book, research, essay, music, video, art, etc.). <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite" target="_blank">Learn more about <strong>cite</strong> at Mozilla.org</a>.</p>
     <table style="width:100%">
+        <caption>Cite example</caption>
         <thead>
             <tr>
-                <th style="width: 50%;">HTML:</th>
-                <th>Result:</th>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
             </tr>
         </thead>
         <tbody>
@@ -942,20 +966,21 @@
                     </code>
                 </td>
                 <td>
-                    HTML elements reference. <cite>MDN Developer Docs.<br><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">https://developer.mozilla.org/en-US/docs/Web/HTML/Element</a></cite>
+                    HTML elements reference. <cite>MDN Developer Docs.<br /><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">https://developer.mozilla.org/en-US/docs/Web/HTML/Element</a></cite>
                 </td>
             </tr>
         </tbody>
     </table>
-    <br>
+    <br />
 
     <h5><a id="Variable">Variable</a></h5>
     <p>Variable (<code>&lt;var&gt;</code>) is contextually used to represent a variable in a mathematical or programming context. <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/var" target="_blank">Learn more about <strong>var</strong> at Mozilla.org</a>.</p>
     <table style="width:100%">
+        <caption>Variable example</caption>
         <thead>
             <tr>
-                <th style="width: 50%;">HTML:</th>
-                <th>Result:</th>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
             </tr>
         </thead>
         <tbody>
@@ -971,7 +996,7 @@
             </tr>
         </tbody>
     </table>
-    <br>
+    <br />
     
     <h4><a id="Quotes">QUOTES</a></h4>
     <p>In HTML, there are two types of quote elements (<code>&lt;q&gt;</code> &amp; <code>&lt;blockquote&gt;</code>) to indicate that the inserted text is representative of a speakers perspective.</p>
@@ -980,10 +1005,11 @@
     <p>Quote (<code>&lt;q&gt;</code>) element is used for small quotes within a sentence. Embedding a quote within each other will change the quote characteristic from a double quote to a single quote. <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q" target="_blank">Learn more about <strong>quote</strong> at Mozilla.org</a>.</p>
 
     <table style="width:100%">
+        <caption>Quote example</caption>
         <thead>
             <tr>
-                <th style="width: 50%;">HTML:</th>
-                <th>Result:</th>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
             </tr>            
         </thead>
         <tbody>
@@ -999,7 +1025,7 @@
             </tr>
         </tbody>
     </table>
-    <br>
+    <br />
     <p>The <code>&lt;q&gt;</code> ensures that the text wrapped with this element carries the semantic meaning of being quoted. It is possible to manually quote text by just using the quotation marks as browsers render quotes mark by default in the simple format (" "). If you are looking to manually include non-semantic traditional open and close quotes without using <code>&lt;q&gt;</code>, use the following HTML entities:</p>
     <ul>
         <li>Double quotes: 
@@ -1015,30 +1041,31 @@
             </ul>
         </li>
     </ul>
-    <br>
+    <br />
 
     <h5><a id="Blockquote">Blockquote</a></h5>
     <p>Blockquote (<code>&lt;blockquote&gt;</code>) element is used for quotes that are the entire sentence or paragraph. Using blockquote is ideal to add pull quotes into your curriculum to create visual interest and to make the quote stand out. <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote" target="_blank">Learn more about <strong>blockquote</strong> at Mozilla.org</a>.</p>
     <table style="width:100%">
+        <caption>Blockquote example</caption>
         <thead>
             <tr>
-                <th style="width: 50%;">HTML:</th>
-                <th>Result:</th>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
             </tr>            
         </thead>
         <tbody>
             <tr>
                 <td>
                     <code>
-                        &lt;figure&gt;<br>
-                        &emsp;&lt;blockquote&gt;<br>
-                        &emsp;&emsp;I have a dream that my four little children will one day live in a nation where they will not be judged by the color of their skin, but by the content of their character.<br>
-                        &emsp;&lt;/blockquote&gt;<br>
-                        &emsp;&lt;figcaption&gt;<br>
-                        &emsp;&emsp;&lt;cite&gt;<br>
-                        &emsp;&emsp;&emsp;Martin Luther King, Jr.<br>
-                        &emsp;&emsp;&lt;/cite&gt;<br>
-                        &emsp;&lt;/figcaption&gt;<br>
+                        &lt;figure&gt;<br />
+                        &emsp;&lt;blockquote&gt;<br />
+                        &emsp;&emsp;I have a dream that my four little children will one day live in a nation where they will not be judged by the color of their skin, but by the content of their character.<br />
+                        &emsp;&lt;/blockquote&gt;<br />
+                        &emsp;&lt;figcaption&gt;<br />
+                        &emsp;&emsp;&lt;cite&gt;<br />
+                        &emsp;&emsp;&emsp;Martin Luther King, Jr.<br />
+                        &emsp;&emsp;&lt;/cite&gt;<br />
+                        &emsp;&lt;/figcaption&gt;<br />
                         &lt;/figure&gt;
                     </code>
                 </td>
@@ -1053,24 +1080,25 @@
             </tr>
         </tbody>
     </table>
-    <br>
+    <br />
 
     <h4><a id="Formatting">FORMATTING</a></h4>
 
     <h5><a id="SupSub">Superscript &amp; Subscript</a></h5>
     <p>Both the superscript (<code>&lt;sup&gt;</code>) and the subscript (<code>&lt;sub&gt;</code>) provide typographical functionality to render type above or below the text baseline. Learn more about the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sup" target="_blank"><strong>superscript</strong></a> or <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sub" target="_blank"><strong>subscript</strong></a> elements at Mozilla.org.</p>
     <table style="width:100%">
+        <caption>Superscript &amp; Subscript example</caption>
         <thead>
             <tr>
-                <th style="width: 50%;">HTML:</th>
-                <th>Result:</th>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
             </tr>            
         </thead>
         <tbody>
             <tr>
                 <td>
                     <code>
-                        &lt;p&gt;Superscript example: 4<strong>&lt;sup&gt;4&lt;/sup&gt;</strong>&lt;/p&gt;<br>
+                        &lt;p&gt;Superscript example: 4<strong>&lt;sup&gt;4&lt;/sup&gt;</strong>&lt;/p&gt;<br />
                         &lt;p&gt;Subscript example: H<strong>&lt;sub&gt;2&lt;/sub&gt;</strong>0&lt;/p&gt;
                     </code>
                 </td>
@@ -1081,24 +1109,25 @@
             </tr>
         </tbody>
     </table>
-    <br>
+    <br />
 
 
     <h5><a id="Small">Small</a></h5>
     <p>In cases when text is required for footnotes, copyright, legal notices, etc., using small (<code>&lt;small&gt;</code>) element is ideal as it renders the font in proportion to the body text. <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/small" target="_blank">Learn more about <strong>small</strong> at Mozilla.org</a>.</p>
     <table style="width:100%">
+        <caption>Small example</caption>
         <thead>
             <tr>
-                <th style="width: 50%;">HTML:</th>
-                <th>Result:</th>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
             </tr>            
         </thead>
         <tbody>
             <tr>
                 <td>
                     <code>
-                        &lt;p&gt;<br>
-                        &emsp;&lt;small&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; This work is licensed under a &lt;a rel="license" href="http://creativecommons.org/<wbr>licenses/by/3.0/deed.en_US" target="_blank">Creative Commons Attribution 3.0 Unported License&lt;/a&gt;.&lt;/small&gt;<br>
+                        &lt;p&gt;<br />
+                        &emsp;&lt;small&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; This work is licensed under a &lt;a rel="license" href="http://creativecommons.org/<wbr>licenses/by/3.0/deed.en_US" target="_blank">Creative Commons Attribution 3.0 Unported License&lt;/a&gt;.&lt;/small&gt;<br />
                         &lt;/p&gt;
                     </code>
                 </td>
@@ -1108,111 +1137,114 @@
             </tr>
         </tbody>
     </table>
-    <br>
+    <br />
 
     <h5><a id="HR">Thematic Break or Horizontal Rule</a></h5>
     <p>Use the <code>&lt;hr&gt;</code> to create a visual line between items in your content. <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr" target="_blank">Learn more about <strong>Thematic Break or Horizontal Rule</strong> at Mozilla.org</a>.</p>
     <table style="width:100%">
+        <caption>Thematic Break or Horizontal Rule example</caption>
         <thead>
             <tr>
-                <th style="width: 50%;">HTML:</th>
-                <th>Result:</th>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
             </tr>            
         </thead>
         <tbody>
             <tr>
                 <td>
                     <code>
-                        &lt;p&gt;This paragraph is for one idea.&lt;/p&gt;<br>
-                        <strong>&lt;hr&gt;</strong><br>
+                        &lt;p&gt;This paragraph is for one idea.&lt;/p&gt;<br />
+                        <strong>&lt;hr&gt;</strong><br />
                         &lt;p&gt;And this paragraph is for a different idea.&lt;/p&gt;
                     </code>
                 </td>
                 <td>
                     <p>This paragraph is for one idea.</p>
-                    <hr>
+                    <hr />
                     <p>And this paragraph is for a different idea.</p>
                 </td>
             </tr>
         </tbody>
     </table>
-    <br>
+    <br />
 
 
     <h5><a id="BR">Line Break</a></h5>
     <p>The <code>&lt;br&gt;</code> is used to create a line break in text within a paragraph. It is useful for writing poems or addresses when separate lines are required <strong>within a paragraph</strong>. A common mistake occurs in the LMS or CMS editor when users press the <kbd>ENTER</kbd> key twice to give the visual impression of paragraphs; but in fact the text blocks are <em>separated by multiple <code>&lt;br&gt;</code> elements</em> to create the impression of paragraphs instead of correctly wrapping the content with <code>&lt;p&gt;</code>. <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br" target="_blank">Learn more about <strong>line break</strong> at Mozilla.org</a>.</p>
     
     <table style="width:100%">
+        <caption>Line Break example</caption>
         <thead>
             <tr>
-                <th style="width: 50%;">HTML:</th>
-                <th>Result:</th>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
             </tr>            
         </thead>
         <tbody>
             <tr>
                 <td>
                     <code>
-                        &lt;h6&gt;The Road Not Taken&lt;/h6&gt;<br>
-                        &lt;p&gt;&lt;small&gt;By Robert Frost&lt;/small&gt;&lt;/p&gt;<br><br>
-                        &lt;p&gt;Two roads diverged in a yellow wood,<strong>&lt;br&gt;</strong><br>
-                            And sorry I could not travel both<strong>&lt;br&gt;</strong><br>
-                            And be one traveler, long I stood<strong>&lt;br&gt;</strong><br>
-                            And looked down one as far as I could<strong>&lt;br&gt;</strong><br>
-                            To where it bent in the undergrowth;&lt;/p&gt;<br><br>
-                        &lt;p&gt;Then took the other, as just as fair,<strong>&lt;br&gt;</strong><br>
-                            And having perhaps the better claim,<strong>&lt;br&gt;</strong><br>
-                            Because it was grassy and wanted wear;<strong>&lt;br&gt;</strong><br>
-                            Though as for that the passing there<strong>&lt;br&gt;</strong><br>
-                            Had worn them really about the same,&lt;/p&gt;<br><br>
-                        &lt;p&gt;And both that morning equally lay<strong>&lt;br&gt;</strong><br>
-                            In leaves no step had trodden black.<strong>&lt;br&gt;</strong><br>
-                            Oh, I kept the first for another day!<strong>&lt;br&gt;</strong><br>
-                            Yet knowing how way leads on to way,<strong>&lt;br&gt;</strong><br>
-                            I doubted if I should ever come back.&lt;/p&gt;<br><br>
-                        &lt;p&gt;I shall be telling this with a sigh<strong>&lt;br&gt;</strong><br>
-                            Somewhere ages and ages hence:<strong>&lt;br&gt;</strong><br>
-                            Two roads diverged in a wood, and I&#8211;<strong>&lt;br&gt;</strong><br>
-                            I took the one less traveled by,<strong>&lt;br&gt;</strong><br>
-                            And that has made all the difference.&lt;/p&gt;<br>
+                        &lt;h4&gt;The Road Not Taken&lt;/h4&gt;<br />
+                        &lt;p&gt;&lt;small&gt;By Robert Frost&lt;/small&gt;&lt;/p&gt;<br /><br />
+                        &lt;p&gt;Two roads diverged in a yellow wood,<strong>&lt;br&gt;</strong><br />
+                            And sorry I could not travel both<strong>&lt;br&gt;</strong><br />
+                            And be one traveler, long I stood<strong>&lt;br&gt;</strong><br />
+                            And looked down one as far as I could<strong>&lt;br&gt;</strong><br />
+                            To where it bent in the undergrowth;&lt;/p&gt;<br /><br />
+                        &lt;p&gt;Then took the other, as just as fair,<strong>&lt;br&gt;</strong><br />
+                            And having perhaps the better claim,<strong>&lt;br&gt;</strong><br />
+                            Because it was grassy and wanted wear;<strong>&lt;br&gt;</strong><br />
+                            Though as for that the passing there<strong>&lt;br&gt;</strong><br />
+                            Had worn them really about the same,&lt;/p&gt;<br /><br />
+                        &lt;p&gt;And both that morning equally lay<strong>&lt;br&gt;</strong><br />
+                            In leaves no step had trodden black.<strong>&lt;br&gt;</strong><br />
+                            Oh, I kept the first for another day!<strong>&lt;br&gt;</strong><br />
+                            Yet knowing how way leads on to way,<strong>&lt;br&gt;</strong><br />
+                            I doubted if I should ever come back.&lt;/p&gt;<br /><br />
+                        &lt;p&gt;I shall be telling this with a sigh<strong>&lt;br&gt;</strong><br />
+                            Somewhere ages and ages hence:<strong>&lt;br&gt;</strong><br />
+                            Two roads diverged in a wood, and I&#8211;<strong>&lt;br&gt;</strong><br />
+                            I took the one less traveled by,<strong>&lt;br&gt;</strong><br />
+                            And that has made all the difference.&lt;/p&gt;<br />
                     </code>
                 </td>
                 <td>
-                    <h6>The Road Not Taken</h6>
+                    <h4>The Road Not Taken</h4>
                     <p><small>By Robert Frost</small></p>
-                    <p>Two roads diverged in a yellow wood,<br>
-                        And sorry I could not travel both<br>
-                        And be one traveler, long I stood<br>
-                        And looked down one as far as I could<br>
+                    <p>Two roads diverged in a yellow wood,<br />
+                        And sorry I could not travel both<br />
+                        And be one traveler, long I stood<br />
+                        And looked down one as far as I could<br />
                         To where it bent in the undergrowth;</p>
-                        <p>Then took the other, as just as fair,<br>
-                        And having perhaps the better claim,<br>
-                        Because it was grassy and wanted wear;<br>
-                        Though as for that the passing there<br>
+                        <p>Then took the other, as just as fair,<br />
+                        And having perhaps the better claim,<br />
+                        Because it was grassy and wanted wear;<br />
+                        Though as for that the passing there<br />
                         Had worn them really about the same,</p>
-                        <p>And both that morning equally lay<br>
-                        In leaves no step had trodden black.<br>
-                        Oh, I kept the first for another day!<br>
-                        Yet knowing how way leads on to way,<br>
+                        <p>And both that morning equally lay<br />
+                        In leaves no step had trodden black.<br />
+                        Oh, I kept the first for another day!<br />
+                        Yet knowing how way leads on to way,<br />
                         I doubted if I should ever come back.</p>
-                        <p>I shall be telling this with a sigh<br>
-                        Somewhere ages and ages hence:<br>
-                        Two roads diverged in a wood, and I&#8211;<br>
-                        I took the one less traveled by,<br>
+                        <p>I shall be telling this with a sigh<br />
+                        Somewhere ages and ages hence:<br />
+                        Two roads diverged in a wood, and I&#8211;<br />
+                        I took the one less traveled by,<br />
                         And that has made all the difference.</p>
                 </td>
             </tr>
         </tbody>
     </table>
-    <br>
+    <br />
     
     <h5><a id="Strike">Strikethrough</a></h5>
     <p>The strikethrough (<code>&lt;s&gt;</code>) element renders a line through the section of text to indicate the information is no longer relevant or accurate. <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/s" target="_blank">Learn more about the <strong>strikethrough</strong> element at Mozilla.org</a>.</p>
     <table style="width:100%">
+        <caption>Strikethrough example</caption>
         <thead>
             <tr>
-                <th style="width: 50%;">HTML:</th>
-                <th>Result:</th>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
             </tr>            
         </thead>
         <tbody>
@@ -1228,15 +1260,16 @@
             </tr>
         </tbody>
     </table>
-    <br>
+    <br />
     
     <h5><a id="Mark">Mark</a></h5>
     <p>The <code>&lt;mark&gt;</code> element is used to <mark>highlight</mark> text for reference or notation purposes. <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/mark" target="_blank">Learn more about <strong>mark</strong> at Mozilla.org</a>.</p>
     <table style="width:100%">
+        <caption>Mark example</caption>
         <thead>
             <tr>
-                <th style="width: 50%;">HTML:</th>
-                <th>Result:</th>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
             </tr>            
         </thead>
         <tbody>
@@ -1252,7 +1285,7 @@
             </tr>
         </tbody>
     </table>
-    <br>
+    <br />
 
 
     
@@ -1263,10 +1296,11 @@
     <p>The abbreviation (<code>&lt;abbr&gt;</code>) element is best used for when abbreviations or acronyms are used. Complemented with the <code>title</code> attribute to provide expanded context for the abbreviation when the user interacts with the element. <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/abbr" target="_blank">Learn more about <strong>abbreviation</strong> at Mozilla.org</a>.</p>
     
     <table style="width:100%">
+        <caption>Abbreviation example</caption>
         <thead>
             <tr>
-                <th style="width: 50%;">HTML:</th>
-                <th>Result:</th>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
             </tr>            
         </thead>
         <tbody>
@@ -1282,24 +1316,25 @@
             </tr>
         </tbody>
     </table>
-    <br>
+    <br />
 
     <h5><a id="Code">Code</a></h5>
     <p>Code (<code>&lt;code&gt;</code>) is used to display content that is intended as a fragment of code or programming language. <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code" target="_blank">Learn more about <strong>code</strong> at Mozilla.org</a>.</p>
     
     <table style="width:100%">
+        <caption>Code example</caption>
         <thead>
             <tr>
-                <th style="width: 50%;">HTML:</th>
-                <th>Result:</th>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
             </tr>            
         </thead>
         <tbody>
             <tr>
                 <td>
                     <code>
-                        &lt;code&gt;<br>
-                        &emsp;&lt;h3&gt;Sample H3 Header Code&lt;/h3&gt;<br>
+                        &lt;code&gt;<br />
+                        &emsp;&lt;h3&gt;Sample H3 Header Code&lt;/h3&gt;<br />
                         &lt;/code&gt;
                     </code>
                 </td>
@@ -1311,24 +1346,25 @@
             </tr>
         </tbody>
     </table>
-    <br>
+    <br />
 
     <h5><a id="Sample">Sample Output</a></h5>
     <p>Sample Output (<code>&lt;samp&gt;</code>) is used to display text that is output from a computer program. <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/samp" target="_blank">Learn more about <strong>samp</strong> at Mozilla.org</a>.</p>
     
     <table style="width:100%">
+        <caption>Sample Output example</caption>
         <thead>
             <tr>
-                <th style="width: 50%;">HTML:</th>
-                <th>Result:</th>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
             </tr>            
         </thead>
         <tbody>
             <tr>
                 <td>
                     <code>
-                        &lt;p&gt;<br>
-                        &emsp;&lt;samp&gt;Upgrade was install successfully.&lt;/samp&gt;<br>
+                        &lt;p&gt;<br />
+                        &emsp;&lt;samp&gt;Upgrade was install successfully.&lt;/samp&gt;<br />
                         &lt;/p&gt;
                     </code>
                 </td>
@@ -1338,16 +1374,17 @@
             </tr>
         </tbody>
     </table>
-    <br>
+    <br />
 
     <h5><a id="Keyboard">Keyboard</a></h5>
     <p>The Keyboard (<code>&lt;kbd&gt;</code>) element is used to represent keys a user will use as input from a keyboard or other text entry device. <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/kbd" target="_blank">Learn more about <strong>keyboard</strong> at Mozilla.org</a>.</p>
     
     <table style="width:100%">
+        <caption>Keyboard example</caption>
         <thead>
             <tr>
-                <th style="width: 50%;">HTML:</th>
-                <th>Result:</th>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
             </tr>            
         </thead>
         <tbody>
@@ -1363,16 +1400,17 @@
             </tr>
         </tbody>
     </table>
-    <br>
+    <br />
 
     <h5><a id="Time">Time</a></h5>
     <p>The <code>&lt;time&gt;</code> element is used to represent a unit of time including; 24 hour clocks, precise date/time. <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time" target="_blank">Learn more about <strong>time</strong> at Mozilla.org</a>.</p>
     
     <table style="width:100%">
+        <caption>Time example</caption>
         <thead>
             <tr>
-                <th style="width: 50%;">HTML:</th>
-                <th>Result:</th>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
             </tr>            
         </thead>
         <tbody>
@@ -1388,57 +1426,132 @@
             </tr>
         </tbody>
     </table>
-    <br>
+    <br />
         
     <h5><a id="Address">Address</a></h5>
     <p>The <code>&lt;address&gt;</code> element encloses contact information for a person, people or an organization. <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address" target="_blank">Learn more about <strong>address</strong> at Mozilla.org</a>.</p>
     
     <table style="width:100%">
+        <caption>Address example</caption>
         <thead>
             <tr>
-                <th style="width: 50%;">HTML:</th>
-                <th>Result:</th>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
             </tr>            
         </thead>
         <tbody>
             <tr>
                 <td>
                     <code>
-                        &lt;p&gt;Contact us:&lt;/p&gt;<br>
-                        &lt;address&gt;<br>
-                        &emsp;&lt;a href="mailto:test@test.com"&gt;test@test.com&lt;/a&gt;&lt;br&gt;<br>
-                        &emsp;&lt;a href="tel:+15555555555"&lt;(555) 555-5555&lt;/a&gt;<br>
+                        &lt;p&gt;Contact us:&lt;/p&gt;<br />
+                        &lt;address&gt;<br />
+                        &emsp;&lt;a href="mailto:test@test.com"&gt;test@test.com&lt;/a&gt;&lt;br&gt;<br />
+                        &emsp;&lt;a href="tel:+15555555555"&lt;(555) 555-5555&lt;/a&gt;<br />
                         &lt;/address&gt;
                     </code>
                 </td>
                 <td>
                     <p>Contact us:</p>
                     <address>
-                        <a href="mailto:test@test.com">test@test.com</a><br>
+                        <a href="mailto:test@test.com">test@test.com</a><br />
                         <a href="tel:+15555555555">(555) 555-5555</a>
                     </address>
                 </td>
             </tr>
         </tbody>
     </table>
-    <hr>
-    <br>
+
+    <h5><a id="Preformatted">Preformatted Text</a></h5>
+    <p>The <code>&lt;pre&gt;</code> element allows users to display text content exactly as it is written in HTML. To ensure accessibility, be sure to wrap the pre with a <code>&lt;Figure&gt;</code>. <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre" target="_blank">Learn more about <strong>pre</strong> at Mozilla.org</a>.</p>
+    
+    <table style="width:100%">
+        <caption>Pre example</caption>
+        <thead>
+            <tr>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
+            </tr>            
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <code>
+                        &lt;figure&gt;<br />
+                        &emsp;&lt;pre role="img" aria-label="A Lazy Bear"&gt;<br />
+                        &emsp;&emsp;This is a Lazy Bear!<br />
+                        <pre>
+&#160;&#160;_,-""`""-~`)
+&#160;(`~_,=========\
+&#160;&#160;|---,___.-.__,\
+&#160;&#160;|        o     \ ___  _,,,,_     _.--.
+&#160;&#160;&#160;\      `^`    /`_.-"~      `~-;`     \
+&#160;&#160;&#160;&#160;\_      _  .'                 `,     |
+&#160;&#160;&#160;&#160;&#160;&#160;|`-                           \'__/ 
+&#160;&#160;&#160;&#160;&#160;/                      ,_       \  `'-. 
+&#160;&#160;&#160;&#160;/    .-""~~--.            `"-,   ;_    /
+&#160;&#160;&#160;|              \               \  | `""` 
+&#160;&#160;&#160;\__.--'`"-.   /_               |'
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;`"`  `~~~---..,     |
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\ _.-'`-.
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\       \
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;'.     /
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;`"~"`
+                                 </pre>
+                        &emsp;&lt;/pre&gt;<br />
+                        &emsp;&lt;figcaption&gt;<br />
+                        &emsp;&emsp;This is a Lazy Bear! Illustrated using preformatted text characters.<br />
+                        &emsp;&lt;/figcaption&gt;<br />
+                            &lt;/figure&gt;
+                    </code>
+                </td>
+                <td>
+                    <figure>
+                        <pre role="img" aria-label="A Lazy Bear">
+This is a Lazy Bear!
+  _,-""`""-~`)
+ (`~_,=========\
+  |---,___.-.__,\
+  |        o     \ ___  _,,,,_     _.--.
+   \      `^`    /`_.-"~      `~-;`     \
+    \_      _  .'                 `,     |
+      |`-                           \'__/ 
+     /                      ,_       \  `'-.
+    /    .-""~~--.            `"-,   ;_    /
+   |              \               \  | `""`
+    \__.--'`"-.   /_               |'
+               `"`  `~~~---..,     |
+                              \ _.-'`-.
+                               \       \
+                                '.     /
+                                  `"~"`
+                        </pre>
+                        <figcaption>
+                            This is a Lazy Bear! Illustrated using preformatted text characters.
+                        </figcaption>
+                    </figure>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr />
+    <br />
     
 </section>
 
 <section id="References">
     <h3>References:</h3>
 
-    <p><cite>HTML.com.</cite> <br><a href="https://html.com/" target="_blank">https://html.com/</a></p>
+    <p><cite>HTML.com.</cite> <br /><a href="https://html.com/" target="_blank">https://html.com/</a></p>
 
-    <p>Kyrnin, J. (2020, December 28). Why Use Semantic HTML? <cite>ThoughtCo.</cite> <br><a href="https://www.thoughtco.com/why-use-semantic-html-3468271" target="_blank">https://www.thoughtco.com/why-use-semantic-html-3468271</a></p>
+    <p>Kyrnin, J. (2020, December 28). Why Use Semantic HTML? <cite>ThoughtCo.</cite> <br /><a href="https://www.thoughtco.com/why-use-semantic-html-3468271" target="_blank">https://www.thoughtco.com/why-use-semantic-html-3468271</a></p>
 
-    <p>HTML elements reference. <cite>MDN Developer Docs.</cite><br><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">https://developer.mozilla.org/en-US/docs/Web/HTML/Element</a></p>
+    <p>HTML elements reference. <cite>MDN Developer Docs.</cite><br /><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">https://developer.mozilla.org/en-US/docs/Web/HTML/Element</a></p>
 
-    <p>Caulfield, J. (2021, April 1). HTML elements reference. <cite>MDN Developer Docs.</cite><br><a href="https://www.scribbr.com/apa-examples/website/" target="_blank">https://www.scribbr.com/apa-examples/website/</a></p>
+    <p>Caulfield, J. (2021, April 1). HTML elements reference. <cite>MDN Developer Docs.</cite><br /><a href="https://www.scribbr.com/apa-examples/website/" target="_blank">https://www.scribbr.com/apa-examples/website/</a></p>
 
-    <hr>
-    <br>
+    <hr />
+    <br />
 </section>
 
 
