@@ -1,4 +1,4 @@
-# HTML-Primer
+# HTML-Primer for eLearning
 Learning to work with HTML in Learning Management Systems (LMS) helps improve student user experience by:
 * ensuring semantic content presentation,
 * compliment organizational brand adherence,
